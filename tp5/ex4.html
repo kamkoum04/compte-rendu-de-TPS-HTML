@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <table border="2" width="100%">
+            <tr>
+                <td colspan="2">
+                    <label>Nom:</label>
+                    <input type="text">
+                    <label>Prénom:</label>
+                    <input type="text">
+                    <br><br>
+                    Date de naissance:
+                    <select>
+                        <option value="janvier">janvier</option>
+                    </select>
+                    <select>
+                        <option value="1980">1980</option>
+                    </select>
+                </td>
+                <td rowspan="3">
+                    Commentaire:<br>
+                    <textarea rows="7" cols="20"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" >
+                    <table border="1">
+                        <tr>
+                            <td><label>BAC+1</label></td>
+                            <td><input type="radio" value="bac1"></td>
+                        </tr>
+                        <tr>
+                            <td><label>BAC+2</label></td>
+                            <td><input type="radio" value="bac2"></td>
+                        </tr>
+                        <tr>
+                            <td><label>BAC+3</label></td>
+                            <td><input type="radio" value="bac3"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    <table border="1">
+                        <tr>
+                            <td><label>C</label></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Java</label></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td><label>PHP</label></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
